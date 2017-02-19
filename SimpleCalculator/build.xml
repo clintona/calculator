@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Calculator" default="jar" basedir=".">
+	
+	<target name="jar">
+	   <jar destfile="Calculator.jar"
+	      basedir="classes"
+	      excludes="**/Test.class">
+	
+	      <manifest>
+	         <attribute name="Main-Class" value="com.tla.calculator.CalculatorDriver"/>
+	      </manifest>
+	
+	   </jar>
+	</target>
+</project>
