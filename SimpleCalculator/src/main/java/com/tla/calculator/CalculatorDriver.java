@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.tla.calculator;
 
 /**
@@ -57,11 +54,10 @@ public class CalculatorDriver {
 		int y = Integer.parseInt(args[2]);
 		return new CalculatorInput(x, args[1], y);
 	}
-	
 
 
 	private static String getUsageMessage() {
-		StringBuilder buf = new StringBuilder("Usage: CalculatorMain {arg1} {operator} {arg2}");
+		StringBuilder buf = new StringBuilder("Usage: CalculatorDriver {arg1} {operator} {arg2}");
 		buf.append(System.lineSeparator()).append("Where operator is one of: {+ - x /}");
 		return buf.toString();
 	}

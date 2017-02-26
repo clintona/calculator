@@ -9,7 +9,13 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class CalculatorMainTest {
+/**
+ * Customizes System.out so we can test the results of the Calculator.
+ * 
+ * @author Clinton
+ *
+ */
+public class CalculatorDriverTest {
 
 	private ByteArrayOutputStream myOut;
 	

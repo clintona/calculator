@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.tla.calculator;
 
 import java.math.BigDecimal;
@@ -22,5 +19,4 @@ public interface ICalculator {
 	int multiply(int x, int y);
 	
 	void setPrecision(int decimalPlaces);
-
 }

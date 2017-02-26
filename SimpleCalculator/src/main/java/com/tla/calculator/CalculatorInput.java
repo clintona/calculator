@@ -10,5 +10,4 @@ public class CalculatorInput {
 		this.function = function;
 	}
 
-
 }

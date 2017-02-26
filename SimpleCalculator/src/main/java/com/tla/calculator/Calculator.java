@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.tla.calculator;
 
 import java.math.BigDecimal;
