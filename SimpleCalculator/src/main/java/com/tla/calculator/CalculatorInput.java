@@ -1,5 +1,11 @@
 package com.tla.calculator;
 
+/**
+ * A Transfer Object to store input parameters for the Calculator.
+ * 
+ * @author Clinton
+ *
+ */
 public class CalculatorInput {
 	int x, y;
 	String function;

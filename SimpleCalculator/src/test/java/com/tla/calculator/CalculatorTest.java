@@ -68,6 +68,8 @@ public class CalculatorTest {
 		assertEquals(4, calc.multiply(4, 1));
 		
 		assertEquals(4, calc.multiply(2, 2));
+		
+		assertEquals(-1, calc.multiply(1, -1));
 	}
 
 	@Test(expected=ArithmeticException.class)
